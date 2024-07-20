@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_canvas"
+    app:startDestination="@id/largeFragment">
+
+    <fragment
+        android:id="@+id/largeFragment"
+        android:name="com.victoris.canvas_drawing.LandingFragment"
+        android:label="fragment_large"
+        tools:layout="@layout/fragment_landing" >
+        <action
+            android:id="@+id/action_largeFragment_to_smallFragment"
+            app:destination="@id/smallFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/smallFragment"
+        android:name="com.victoris.canvas_drawing.CanvasFragment"
+        android:label="fragment_small"
+        tools:layout="@layout/fragment_canvas" >
+        <action
+            android:id="@+id/action_smallFragment_to_largeFragment"
+            app:destination="@id/largeFragment"
+            app:popUpTo="@id/smallFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

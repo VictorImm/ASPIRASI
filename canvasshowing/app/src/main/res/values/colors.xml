@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_2">#FF212121</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_2">#FFFAFAFA</color>
+    <color name="blue_1">#0468bd</color>
+    <color name="blue_2">#0474A8</color>
+    <color name="blue_3">#037F94</color>
+    <color name="blue_4">#038d80</color>
+
+    <!-- PAINT -->
+    <color name="paint_black">#181A18</color>
+    <color name="paint_red">#FF0000</color>
+    <color name="paint_orange">#FFA500</color>
+    <color name="paint_yellow">#FFFF00</color>
+    <color name="paint_green">#008000</color>
+    <color name="paint_blue">#0000FF</color>
+    <color name="paint_indigo">#4B0082</color>
+    <color name="paint_violet">#EE82EE</color>
+
+    <!-- LIKE FESTIVAL -->
+    <color name="like_blue">#0468bd</color>
+    <color name="like_aqua">#038d80</color>
+    <color name="like_yellow">#fcb841</color>
+</resources>

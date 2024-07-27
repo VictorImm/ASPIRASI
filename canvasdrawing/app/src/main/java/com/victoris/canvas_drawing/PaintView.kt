@@ -100,6 +100,7 @@ class PaintView : View {
         if (pathList.isNotEmpty()) {
             pathList.removeLast()
             colorList.removeLast()
+            sizeList.removeLast()
 
             postInvalidate()
         }
@@ -126,9 +127,10 @@ class PaintView : View {
 
     }
 
-    private fun clearCanvas() {
+    fun clearCanvas() {
         pathList.clear()
         colorList.clear()
+        sizeList.clear()
 
         postInvalidate()
     }
